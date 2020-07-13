@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: pink;
+  background-size: contain;
+  background-position: center center;
+  margin: 0;
+  font-family: 'Fredericka the Great', sans-serif;
+  color: rgba(20, 20, 20, 0.8);
+}
+
+main {
+  display: inline-block;
+  text-align: center;
+  background: pink;
+}
+
+.stitch {
+  border: 1.5px dashed white;
+  box-shadow: 0 0 0 7px pink, 0 2px 8px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 13vw;
+  font-weight: normal;
+  line-height: 1em;
+  margin: 0 0 0.5em;
+}
+
+form {
+  margin: 2em 0 1em;
+}
+
+label {
+  background: white;
+  border-radius: 0.2em;
+  display: inline-block;
+  padding: 0.5em 1em;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+label:hover,
+input:focus label {
+  box-shadow: 0 0 1px 1px rgba(0,0,0,0.3);
+}
+
+input {
+  position: absolute !important;
+  height: 1px; 
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
+@media (min-width: 800px) {
+  .stitch {
+    padding: 2vw 5vw;
+  }
+  
+  h1 {
+    font-size: 9vw;
+  }
+
+  label {
+    padding: 0.8em 1.2em;
+  }
+}
