@@ -45,9 +45,12 @@ label {
   cursor: pointer;
 }
 
-label:hover,
-input:focus label {
+label:hover {
   box-shadow: 0 0 1px 1px rgba(0,0,0,0.3);
+}
+
+input:focus + label {
+  box-shadow: 0 0 1px 2px rgba(0,0,0,0.5);
 }
 
 input {
