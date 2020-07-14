@@ -5,8 +5,7 @@ body {
   align-items: center;
   min-height: 100vh;
   background: pink;
-  background-size: contain;
-  background-position: center center;
+  background-size: 50% auto;
   margin: 0;
   font-family: 'Fredericka the Great', sans-serif;
   color: rgba(20, 20, 20, 0.8);
