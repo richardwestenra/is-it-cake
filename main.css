@@ -31,6 +31,16 @@ h1 {
   margin: 0 0 0.5em;
 }
 
+@media (min-width: 800px) {
+  .stitch {
+    padding: 2vw 5vw;
+  }
+  
+  h1 {
+    font-size: 9vw;
+  }
+}
+
 form {
   margin: 2em 0 1em;
 }
@@ -43,6 +53,12 @@ label {
   white-space: nowrap;
   cursor: pointer;
   box-shadow: 0 0 2px rgba(0,0,0,0.15);
+}
+
+@media (min-width: 500px) {
+  label {
+    padding: 0.8em 1.2em;
+  }
 }
 
 label:hover {
@@ -65,20 +81,6 @@ input {
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap;
-}
-
-@media (min-width: 800px) {
-  .stitch {
-    padding: 2vw 5vw;
-  }
-  
-  h1 {
-    font-size: 9vw;
-  }
-
-  label {
-    padding: 0.8em 1.2em;
-  }
 }
 
 .credit {

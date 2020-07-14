@@ -14,7 +14,7 @@
         processImage(file);
         upload.value = '';
       } else {
-        h1.textContent = 'Please choose an image file.';
+        h1.innerHTML = 'Please choose<br> an image file.';
       }
     }
   }
